@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "YSAuthManager.h"
+#import "YSShareView.h"
 
 @interface ViewController ()
 
@@ -30,7 +31,7 @@
     wechatShareButton.frame = CGRectMake(50, 100, 100, 30);
     [wechatShareButton setTitle:@"微信分享" forState:UIControlStateNormal];
     [wechatShareButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [wechatShareButton addTarget:self action:@selector(wechatShare) forControlEvents:UIControlEventTouchUpInside];
+    [wechatShareButton addTarget:self action:@selector(shareClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:wechatShareButton];
 }
 
@@ -83,6 +84,16 @@
             // 嵌入式输入账号密码模式
         }
 }
+
+- (void)shareClick
+{
+    YSShareView *shareView = [[YSShareView alloc] init];
+    [self.view addSubview:shareView];
+    
+    [shareView showShareView];
+}
+
+
 
 #pragma mark - 设置弹出提示语
 - (void)setupAlertController {

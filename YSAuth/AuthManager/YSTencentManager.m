@@ -149,7 +149,6 @@
     //        [ProgressHUD showError:@"没有安装QQ,无法分享"];
     //        return ;
     //    }
-    ;
     NSData *data = UIImagePNGRepresentation(image);
     QQApiURLObject *urlObj = [[QQApiURLObject alloc] initWithURL:[NSURL URLWithString:url]
                                                            title:title

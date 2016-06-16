@@ -24,4 +24,16 @@
 + (NSString *)getUserName;
 + (NSString *)getUserAvatar;
 
++ (void)shareQQChat:(NSString *)title
+        description:(NSString *)description
+              thumb:(UIImage *)image
+                url:(NSString *)url
+             result:(YSShareBlock)result;
+
++ (void)shareQQZone:(NSString *)title
+        description:(NSString *)description
+              thumb:(UIImage *)image
+                url:(NSString *)url
+             result:(YSShareBlock)result;
+
 @end

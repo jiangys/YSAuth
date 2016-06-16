@@ -29,7 +29,11 @@ typedef NS_ENUM(NSInteger,YSShareType) {
     /** 分享到微信好友 */
     YSShareTypeWechatFirend,
     /** 分享到微信朋友圈 */
-    YSShareTypeWechatFirends
+    YSShareTypeWechatFirends,
+    /** 分享到QQ好友 */
+    YSShareTypeQQChat,
+    /** 分享到QQ空间 */
+    YSShareTypeQQZone
 };
 
 // 登录回调block，成功返回TRUE和ID，失败返回FALSE和错误信息

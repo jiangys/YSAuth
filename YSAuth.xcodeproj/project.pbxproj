@@ -15,11 +15,6 @@
 		5A77C74C1D1126D600BFC192 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A77C73B1D1126D600BFC192 /* TencentOpenAPI.framework */; };
 		5A77C74D1D1126D600BFC192 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A77C73D1D1126D600BFC192 /* libWeChatSDK.a */; };
 		5A77C74E1D1126D600BFC192 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5A77C73E1D1126D600BFC192 /* README.txt */; };
-		5A77C74F1D1126D600BFC192 /* YSAuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A77C7431D1126D600BFC192 /* YSAuthManager.m */; };
-		5A77C7501D1126D600BFC192 /* YSNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A77C7451D1126D600BFC192 /* YSNetwork.m */; };
-		5A77C7511D1126D600BFC192 /* YSTencentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A77C7471D1126D600BFC192 /* YSTencentManager.m */; };
-		5A77C7521D1126D600BFC192 /* YSWechatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A77C7491D1126D600BFC192 /* YSWechatManager.m */; };
-		5A77C7531D1126D600BFC192 /* YSWeiboManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A77C74B1D1126D600BFC192 /* YSWeiboManager.m */; };
 		5AD123BF1D0E94250032A5B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD123BE1D0E94250032A5B6 /* main.m */; };
 		5AD123C21D0E94250032A5B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD123C11D0E94250032A5B6 /* AppDelegate.m */; };
 		5AD123C51D0E94250032A5B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD123C41D0E94250032A5B6 /* ViewController.m */; };
@@ -31,6 +26,12 @@
 		5AD123E31D0E95E80032A5B6 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD123E21D0E95E80032A5B6 /* libsqlite3.0.tbd */; };
 		5AD123E51D0E95F10032A5B6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD123E41D0E95F10032A5B6 /* CoreTelephony.framework */; };
 		5AD123E71D0E95FF0032A5B6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD123E61D0E95FF0032A5B6 /* libc++.tbd */; };
+		5AFDD5FD1D12843500AC43E6 /* YSAuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFDD5F41D12843500AC43E6 /* YSAuthManager.m */; };
+		5AFDD5FE1D12843500AC43E6 /* YSNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFDD5F61D12843500AC43E6 /* YSNetwork.m */; };
+		5AFDD5FF1D12843500AC43E6 /* YSTencentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFDD5F81D12843500AC43E6 /* YSTencentManager.m */; };
+		5AFDD6001D12843500AC43E6 /* YSWechatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFDD5FA1D12843500AC43E6 /* YSWechatManager.m */; };
+		5AFDD6011D12843500AC43E6 /* YSWeiboManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFDD5FC1D12843500AC43E6 /* YSWeiboManager.m */; };
+		5AFDD6041D128B1500AC43E6 /* YSShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFDD6031D128B1500AC43E6 /* YSShareView.m */; };
 		82FE494D8F28C83357BB89E9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4DE9706C96D4F6EE86EE93 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -48,16 +49,6 @@
 		5A77C73F1D1126D600BFC192 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
 		5A77C7401D1126D600BFC192 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		5A77C7411D1126D600BFC192 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
-		5A77C7421D1126D600BFC192 /* YSAuthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSAuthManager.h; sourceTree = "<group>"; };
-		5A77C7431D1126D600BFC192 /* YSAuthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSAuthManager.m; sourceTree = "<group>"; };
-		5A77C7441D1126D600BFC192 /* YSNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSNetWork.h; sourceTree = "<group>"; };
-		5A77C7451D1126D600BFC192 /* YSNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSNetwork.m; sourceTree = "<group>"; };
-		5A77C7461D1126D600BFC192 /* YSTencentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTencentManager.h; sourceTree = "<group>"; };
-		5A77C7471D1126D600BFC192 /* YSTencentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTencentManager.m; sourceTree = "<group>"; };
-		5A77C7481D1126D600BFC192 /* YSWechatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSWechatManager.h; sourceTree = "<group>"; };
-		5A77C7491D1126D600BFC192 /* YSWechatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSWechatManager.m; sourceTree = "<group>"; };
-		5A77C74A1D1126D600BFC192 /* YSWeiboManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSWeiboManager.h; sourceTree = "<group>"; };
-		5A77C74B1D1126D600BFC192 /* YSWeiboManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSWeiboManager.m; sourceTree = "<group>"; };
 		5AD123BA1D0E94250032A5B6 /* YSAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD123BE1D0E94250032A5B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5AD123C01D0E94250032A5B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,6 +64,18 @@
 		5AD123E21D0E95E80032A5B6 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		5AD123E41D0E95F10032A5B6 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		5AD123E61D0E95FF0032A5B6 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		5AFDD5F31D12843500AC43E6 /* YSAuthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSAuthManager.h; sourceTree = "<group>"; };
+		5AFDD5F41D12843500AC43E6 /* YSAuthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSAuthManager.m; sourceTree = "<group>"; };
+		5AFDD5F51D12843500AC43E6 /* YSNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSNetWork.h; sourceTree = "<group>"; };
+		5AFDD5F61D12843500AC43E6 /* YSNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSNetwork.m; sourceTree = "<group>"; };
+		5AFDD5F71D12843500AC43E6 /* YSTencentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTencentManager.h; sourceTree = "<group>"; };
+		5AFDD5F81D12843500AC43E6 /* YSTencentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTencentManager.m; sourceTree = "<group>"; };
+		5AFDD5F91D12843500AC43E6 /* YSWechatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSWechatManager.h; sourceTree = "<group>"; };
+		5AFDD5FA1D12843500AC43E6 /* YSWechatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSWechatManager.m; sourceTree = "<group>"; };
+		5AFDD5FB1D12843500AC43E6 /* YSWeiboManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSWeiboManager.h; sourceTree = "<group>"; };
+		5AFDD5FC1D12843500AC43E6 /* YSWeiboManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSWeiboManager.m; sourceTree = "<group>"; };
+		5AFDD6021D128B1500AC43E6 /* YSShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSShareView.h; sourceTree = "<group>"; };
+		5AFDD6031D128B1500AC43E6 /* YSShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSShareView.m; sourceTree = "<group>"; };
 		BC4DE9706C96D4F6EE86EE93 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -104,6 +107,16 @@
 			isa = PBXGroup;
 			children = (
 				5A77C7391D1126D600BFC192 /* Lib */,
+				5AFDD5F31D12843500AC43E6 /* YSAuthManager.h */,
+				5AFDD5F41D12843500AC43E6 /* YSAuthManager.m */,
+				5AFDD5F51D12843500AC43E6 /* YSNetWork.h */,
+				5AFDD5F61D12843500AC43E6 /* YSNetwork.m */,
+				5AFDD5F71D12843500AC43E6 /* YSTencentManager.h */,
+				5AFDD5F81D12843500AC43E6 /* YSTencentManager.m */,
+				5AFDD5F91D12843500AC43E6 /* YSWechatManager.h */,
+				5AFDD5FA1D12843500AC43E6 /* YSWechatManager.m */,
+				5AFDD5FB1D12843500AC43E6 /* YSWeiboManager.h */,
+				5AFDD5FC1D12843500AC43E6 /* YSWeiboManager.m */,
 			);
 			path = AuthManager;
 			sourceTree = "<group>";
@@ -113,16 +126,6 @@
 			children = (
 				5A77C73A1D1126D600BFC192 /* libTencentSDK */,
 				5A77C73C1D1126D600BFC192 /* libWeChatSDK */,
-				5A77C7421D1126D600BFC192 /* YSAuthManager.h */,
-				5A77C7431D1126D600BFC192 /* YSAuthManager.m */,
-				5A77C7441D1126D600BFC192 /* YSNetWork.h */,
-				5A77C7451D1126D600BFC192 /* YSNetwork.m */,
-				5A77C7461D1126D600BFC192 /* YSTencentManager.h */,
-				5A77C7471D1126D600BFC192 /* YSTencentManager.m */,
-				5A77C7481D1126D600BFC192 /* YSWechatManager.h */,
-				5A77C7491D1126D600BFC192 /* YSWechatManager.m */,
-				5A77C74A1D1126D600BFC192 /* YSWeiboManager.h */,
-				5A77C74B1D1126D600BFC192 /* YSWeiboManager.m */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -173,6 +176,8 @@
 				5AD123C11D0E94250032A5B6 /* AppDelegate.m */,
 				5AD123C31D0E94250032A5B6 /* ViewController.h */,
 				5AD123C41D0E94250032A5B6 /* ViewController.m */,
+				5AFDD6021D128B1500AC43E6 /* YSShareView.h */,
+				5AFDD6031D128B1500AC43E6 /* YSShareView.m */,
 				5AD123C61D0E94250032A5B6 /* Main.storyboard */,
 				5AD123C91D0E94250032A5B6 /* Assets.xcassets */,
 				5AD123CB1D0E94250032A5B6 /* LaunchScreen.storyboard */,
@@ -340,14 +345,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A77C7531D1126D600BFC192 /* YSWeiboManager.m in Sources */,
+				5AFDD5FE1D12843500AC43E6 /* YSNetwork.m in Sources */,
+				5AFDD6011D12843500AC43E6 /* YSWeiboManager.m in Sources */,
+				5AFDD6041D128B1500AC43E6 /* YSShareView.m in Sources */,
+				5AFDD5FF1D12843500AC43E6 /* YSTencentManager.m in Sources */,
 				5AD123C51D0E94250032A5B6 /* ViewController.m in Sources */,
+				5AFDD5FD1D12843500AC43E6 /* YSAuthManager.m in Sources */,
 				5AD123C21D0E94250032A5B6 /* AppDelegate.m in Sources */,
-				5A77C7501D1126D600BFC192 /* YSNetwork.m in Sources */,
 				5AD123BF1D0E94250032A5B6 /* main.m in Sources */,
-				5A77C74F1D1126D600BFC192 /* YSAuthManager.m in Sources */,
-				5A77C7521D1126D600BFC192 /* YSWechatManager.m in Sources */,
-				5A77C7511D1126D600BFC192 /* YSTencentManager.m in Sources */,
+				5AFDD6001D12843500AC43E6 /* YSWechatManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
